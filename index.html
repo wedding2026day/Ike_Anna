@@ -69,18 +69,18 @@
   <!-- Имя -->
   <label class="block6-label">
     <span class="label-text">Ваше имя и фамилия</span>
-    <input type="text" name="Имя" required>
+    <input type="text" name="name" required>
   </label>
 
   <!-- Подтверждение -->
   <p>Подтвердите свое присутствие:</p>
   <label>
-    <input type="radio" name="Присутствие" value="Да, я с радостью приду" required>
+    <input type="radio" name="presence" value="Да, я с радостью приду" required>
     <span class="option-text">Да, я с радостью приду</span>
   </label>
 
   <label>
-    <input type="radio" name="Присутствие" value="К сожалению, не смогу присутствовать">
+    <input type="radio" name="presence" value="К сожалению, не смогу присутствовать">
     <span class="option-text">К сожалению, не смогу присутствовать</span>
   </label>
 
@@ -88,27 +88,27 @@
   <p>Ваши предпочтения в алкоголе:</p>
 
   <label>
-  <input type="checkbox" name="Алкоголь[]" value="Виски">
+  <input type="checkbox" name="alcohol[]" value="Виски">
   <span class="option-text">Водка</span>
 </label>
 
 <label>
-  <input type="checkbox" name="Алкоголь[]" value="Водка">
+  <input type="checkbox" name="alcohol[]" value="Водка">
   <span class="option-text">Вино</span>
 </label>
 
 <label>
-  <input type="checkbox" name="Алкоголь[]" value="Вино">
+  <input type="checkbox" name="alcohol[]" value="Вино">
   <span class="option-text">Коньяк</span>
 </label>
 
 <label>
-  <input type="checkbox" name="Алкоголь[]" value="Вино">
+  <input type="checkbox" name="alcohol[]" value="Вино">
   <span class="option-text">Шампанское</span>
 </label>
 
   <!-- Свой вариант -->
-  <input type="text" name="Свой вариант алкоголя" placeholder="Свой вариант">
+  <input type="text" name="your own version" placeholder="Свой вариант">
 
   <!-- Кнопка -->
   <button type="submit">Отправить</button>
